@@ -1,23 +1,35 @@
-Hablare del aprendizaje de las maquinas, en que consiste?, Este es un campo de estudio que permite que 
-las computadoras tengan la capacidad de aprender sin ser programadas explicitamente, Pero, cual ha sido 
-la motivacion de esto?, la dificultad que se tiene al escribir un programa que calcule la probabilidad 
-de que una transaccion de una linea sea fraudulenta.
+# Árboles de Decisión y Aprendizaje de Máquina
 
-La solucion, es mediante un algoritmo de aprendizaje maquina, que nos devuelve el programa, y nos indica 
-si esta bien hecho, y tendra un margen de confianza, esto es util para manejar los datos que son 
-complejos y que se tienen ineficiencias al momento de manejarlos. 
-Esto maneja lo que son las generalizaciones de los datos, mediante calculos, realiza un margen de error, 
-tomando una muestra, y verifica que la muestra tenga o no errores.
+## ¿Qué es el Aprendizaje de Máquina?
+El aprendizaje de máquina es un campo de estudio que permite que las computadoras tengan la capacidad de aprender sin ser programadas explícitamente.
 
-Los metodos que usa aprendizaje maquina, son los modelos descriptivos, Modelos lineales, Redes neuronales, 
-Metodos de ensamble, honestamente no reconozco los modelos de ensamble, pero enfoquemonos en los arboles de desicion.
-Los arboles de desicion se dividen en 2 tipos:
-Arboles de desicion cuantitativos, y cualitativos
+### Motivación
+La dificultad de escribir un programa que calcule la probabilidad de que una transacción en una línea sea fraudulenta ha sido una de las principales razones para desarrollar el aprendizaje de máquina.
 
-Arboles de desicion:
-Estos pueden representar cualquier funcion de la entrada de los atributos, para las funciones booleanas, parte de 
-un valor verdadero o falso, y requiere exponencialmente de muchos nodos, pero para una mejor presicion, se usa la
-recursion, y toma en cuenta una cierta cantidad de pasos para hacer una recursion, ademas de que tambien este va 
-teniendo una cierta profundidad.
-La entropia puede ser alta si hay una distribucion uniforme, caso contrario es una entropia pequeña, que cuenta con 
-condiciones y informacion de ganancia.
+### Solución
+Un algoritmo de aprendizaje de máquina puede generar un modelo que devuelva predicciones con un margen de confianza. Esto es útil para manejar datos complejos y mejorar la eficiencia en su procesamiento.
+
+El aprendizaje de máquina permite generalizar datos mediante cálculos estadísticos. A partir de una muestra, se estima un margen de error y se verifica la calidad de la muestra.
+
+## Métodos de Aprendizaje de Máquina
+Existen varios enfoques en el aprendizaje de máquina, entre ellos:
+- **Modelos descriptivos**
+- **Modelos lineales**
+- **Redes neuronales**
+- **Métodos de ensamble** (aunque no los conozco bien, me enfocaré en los árboles de decisión)
+
+## Árboles de Decisión
+Los árboles de decisión son modelos que pueden representar cualquier función de entrada basada en atributos.
+
+Se dividen en dos tipos:
+1. **Árboles de decisión cuantitativos**
+2. **Árboles de decisión cualitativos**
+
+Estos árboles pueden manejar funciones booleanas, comenzando con valores de verdadero o falso. Sin embargo, requieren un número exponencial de nodos para alcanzar una mejor precisión. Para mejorar la eficiencia, se usa **recursión**, tomando en cuenta una cantidad limitada de pasos y una profundidad determinada.
+
+### Entropía y Ganancia de Información
+- La entropía es alta cuando los datos tienen una distribución uniforme.
+- Cuando la distribución no es uniforme, la entropía es baja.
+- Se utilizan condiciones y métricas de ganancia de información para mejorar las decisiones dentro del árbol.
+
+El uso de árboles de decisión permite modelar problemas complejos de clasificación y predicción, proporcionando interpretabilidad y eficacia en el procesamiento de datos.
